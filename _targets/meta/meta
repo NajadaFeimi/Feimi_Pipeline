@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.__NAMESPACE__.|object|a33a092bd95340e1|||||||||||||||
+.__S3MethodsTable__.|object|53e05a0f51948f75|||||||||||||||
+.packageName|object|92b9c34f2da400e8|||||||||||||||
+fit_model|function|b3c1cffa2303f186|||||||||||||||
+model|stem|c45fbd6622c74158|077928a2f1919eba|96d7893902b17b2c|1816327236||t19370.8687382714s|4007094c4346ad14|992744|rds|local|vector|||0.284||
+plot_abline|stem|53fd846f78ca6ab4|6a187b2aa4adfbe3|a7760ae9e4982174|-1112034969||t19370.8687479472s|39e10e19854aee75|1558540|rds|local|vector|||0.01||
+plot_boxplot|stem|0dffe8451b6f7b47|b930c585e2127c8c|0ad8b6dc55eff239|506612483||t19370.8687419288s|948d29b960a71394|649464|rds|local|vector|||0.03||
+plot_model|function|c3659e947c31360d|||||||||||||||
+plot_stats|function|6b81b9ff371781e8|||||||||||||||
