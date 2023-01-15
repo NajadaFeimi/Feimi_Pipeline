@@ -1,6 +1,6 @@
 # Najada's Simple Pipeline
 
-If you want to skip to running the pipeline: <a href="#run-the-pipeline"></a>
+If you want to skip to running the pipeline: [RUN THE PIPELINE](#RUN-THE-PIPELINE)
 ## Introduction
 
 This is a simple pipeline I created for the workshop "Statec" of my Master Degree in Data Science. This is my first time working independetly and exploring these topics. I took inspiration from the simple pipeline tutorial created by the author of targets, but I chose a more difficult way to arrive at the same results. I firstly created a Package with three functions in it, the first one **fits a linear model to the diamonds dataframe where price is the dependent variable and carat is the independent variable**, the second one **displays a scatterplot of the fitted model** and the third **plots a jitter boxplot where the jitter datapoint show the relation between carats and the price for each diamond cut and the boxplot shows the distribution**.
@@ -54,7 +54,7 @@ fit_model <- function(data) {
 }
 ```
 
-<!-- RUN THE PIPELINE -->
+## RUN THE PIPELINE
 
 ***In order to run this pipeline please take these steps:***
 
