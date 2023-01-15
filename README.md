@@ -1,5 +1,8 @@
 # Najada's Simple Pipeline
+
+If you want to skip to running the pipeline: <a href="#run-the-pipeline"></a>
 ## Introduction
+
 This is a simple pipeline I created for the workshop "Statec" of my Master Degree in Data Science. This is my first time working independetly and exploring these topics. I took inspiration from the simple pipeline tutorial created by the author of targets, but I chose a more difficult way to arrive at the same results. I firstly created a Package with three functions in it, the first one **fits a linear model to the diamonds dataframe where price is the dependent variable and carat is the independent variable**, the second one **displays a scatterplot of the fitted model** and the third **plots a jitter boxplot where the jitter datapoint show the relation between carats and the price for each diamond cut and the boxplot shows the distribution**.
 I documented the package and each function. I then checked with ?*name_of_function* the R documentation of each function. Afterwards I performed unit tests as described below and then called these functions using MyPackage in the pipeline.
 
@@ -51,6 +54,8 @@ fit_model <- function(data) {
 }
 ```
 
+<!-- RUN THE PIPELINE -->
+
 ***In order to run this pipeline please take these steps:***
 
 Open a new project by clonning this repository: 
@@ -80,12 +85,12 @@ targets::tar_read(plot_abline)
 Working in the project: 
 
 Pros: 
-* I finally understood what renv does. ***Hooray**
-* It was fun connecting the dots on how to relate everything we took in the course
-* I learned a lot by debugging by myself.
+* I finally understood what renv does. ***Hooray***
+* It was fun connecting the dots on how to relate everything we took in the course.
+* I learned a lot debugging by myself.
 
 Remarks and self-criticism: 
-* There is a long way ahead
-* I also explored Shiny app, but did not have enough time to check on how to relate it to the package or the pipeline
-* Also I would like to explore in something more complicated also.
+* There is a long way ahead.
+* I also explored Shiny app, but did not have enough time to check on how to connect it to the package or the pipeline.
+* There is space to develop something more complicated but the time was a bit limited during the exam season.
 * Some things could be done better, but I had a lot of errors sometimes and I tried to simplify things.
